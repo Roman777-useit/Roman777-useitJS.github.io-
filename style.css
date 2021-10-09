@@ -1,0 +1,21 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.mainFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2%;
+}
+.buttonStyle{
+    width: 5%;
+    height: 10%;
+    margin-bottom:1% ;
+}
+.goldStyle{
+    color: gold;
+}
+.redStyle{
+    color: red;
+}

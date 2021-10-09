@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>MyWebSite</title>
+</head>
+<body>
+    <main class="mainFlex">
+        <div>
+            <p id="testText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt necessitatibus sed, magni ut soluta dolor id. Ex fuga, sed a impedit minima beatae commodi accusantium dolores! Saepe, asperiores. Et.</p>
+        </div>
+        <button onclick="myPrint()" class="buttonStyle">Call function</button>
+        <button onclick="changeColor()" class="buttonStyle">Change color in text</button>
+        <button onclick="returnColor()" class="buttonStyle">Remove color red</button>
+        <button onclick="returnColorToggle()" class="buttonStyle">Return to  red color in text</button>
+        <textarea onselect="saveSelectText()" name="" id="myText" cols="30" rows="10"></textarea>
+        <textarea  name="" id="resultText" cols="30" rows="10"></textarea>
+       
+    </main>
+</body>
+</html>
